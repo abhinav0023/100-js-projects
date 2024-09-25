@@ -1,0 +1,3 @@
+api key - 219af9a207db48c885c36801ba374971
+
+https://api.spoonacular.com/recipes/random?number=10&apiKey=219af9a207db48c885c36801ba374971
