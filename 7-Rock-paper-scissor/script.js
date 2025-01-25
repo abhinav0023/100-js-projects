@@ -129,4 +129,4 @@ const game = () => {
 }
 
 // Calling the game function
-game();
+ game();
