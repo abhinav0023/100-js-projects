@@ -1,0 +1,32 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.testimonial-slider{
+    width: 40%;
+    height: auto;
+    background-color: rgb(27, 27, 46);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.person_image{
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+}
+
+.review{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
