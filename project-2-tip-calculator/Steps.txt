@@ -1,0 +1,6 @@
+things i need to do 
+Small steps - 
+1. structure 
+2. inputs 
+3. access input values 
+4. calculate 
