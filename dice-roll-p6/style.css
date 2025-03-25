@@ -1,0 +1,52 @@
+#main {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* flex-direction: column; */
+  height: 100vh;
+  width: 100vw;
+}
+
+#Roll {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background: #000;
+  color: aliceblue;
+  border-radius: 40px;
+  
+}
+
+button:hover {
+    background-color: #2e8baf;
+  } 
+
+#dice {
+  font-size: 13rem;
+  margin-bottom: 20px;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes roll {
+  0% {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    transform: rotateY(720deg) rotateX(720deg);
+  }
+}
+
+#roll_history{
+    font-size: 5rem;
+    list-style: none;
+    
+}
