@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.btns{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.tabs{
+    background-color: aqua;
+}
+
+.tabs:hover{
+    background-color: pink;
+}
+
+
+#main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 300px;
+    height:auto;
+    color: aliceblue;
+}
+
+#info{
+    height: 500px;
+    background-color: gray;
+}
